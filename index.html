@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | NFT preview card component</title>
+  </head>
+  <body class="bg-neutral-dark-blue-bg font-outfit">
+    <main class="h-screen grid place-content-center">
+      <div
+        class="max-w-xs bg-neutral-dark-blue-card p-5 rounded-2xl mx-5 sm:m-0"
+      >
+        <div class="grid gap-4">
+          <div class="relative group rounded-xl overflow-hidden">
+            <img
+              class="w-full h-full object-cover"
+              src="images/image-equilibrium.jpg"
+              alt="Equilibrium Image"
+            />
+            <div
+              class="absolute inset-0 bg-primary-cyan bg-opacity-60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center"
+            >
+              <img src="images/icon-view.svg" alt="View Icon" />
+            </div>
+          </div>
+          <h3 class="text-neutral-white text-xl font-bold">
+            <span class="hover:text-primary-cyan cursor-pointer"
+              >Equilibrium #3429</span
+            >
+          </h3>
+          <p class="text-primary-blue font-extralight">
+            Our Equilibrium collection promotes balance and calm.
+          </p>
+          <div class="flex justify-between">
+            <span
+              class="flex gap-2 text-sm font-semibold items-center text-primary-cyan"
+            >
+              <img class="inline" src="images/icon-ethereum.svg" alt="" />
+              0.041 ETH
+            </span>
+            <span class="flex gap-2 text-sm text-primary-blue items-center"
+              ><img class="inline" src="images/icon-clock.svg" alt="" /> 3 days
+              left</span
+            >
+          </div>
+          <hr class="border-1/2 border-neutral-dark-blue-line" />
+          <div class="flex gap-3 items-center">
+            <img
+              class="size-8 border border-neutral-white rounded-full"
+              src="images/image-avatar.png"
+              alt=""
+            />
+            <h5
+              class="text-neutral-white text-sm font-normal hover:text-primary-cyan cursor-pointer"
+            >
+              <span class="text-primary-blue">Creation of </span>Jules Wyvern
+            </h5>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
